@@ -265,6 +265,7 @@ local_src_files := \
 	evp/e_bf.c \
 	evp/e_des.c \
 	evp/e_des3.c \
+	evp/e_idea.c \
 	evp/e_null.c \
 	evp/e_old.c \
 	evp/e_rc2.c \
@@ -468,7 +469,12 @@ local_src_files := \
 	x509v3/v3_skey.c \
 	x509v3/v3_sxnet.c \
 	x509v3/v3_utl.c \
-	x509v3/v3err.c
+	x509v3/v3err.c \
+	idea/i_cbc.c \
+	idea/i_cfb64.c \
+	idea/i_ecb.c \
+	idea/i_ofb64.c \
+	idea/i_skey.c
 
 local_c_includes := \
 	external/openssl \
